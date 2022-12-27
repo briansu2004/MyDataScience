@@ -18,7 +18,7 @@ jupyter-notebook
 
 ## Python + Jypyter Notebook + VSCode
 
-It has to connect Conda kernel.
+Looks like it has to connect the Conda kernel.
 
 Tried 3.7.5 and 3.11 but none of them work.
 
