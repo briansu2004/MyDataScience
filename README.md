@@ -14,6 +14,16 @@ cd <MyFolder>
 jupyter-notebook
 ```
 
+## venv
+
+```dos
+python -m venv venv
+venv\scripts\activate.bat
+python -m pip install pandas-profiling pydotplus keras tensorflow graphviz sklearn
+python Titanic.py
+venv\scripts\deactivate.bat
+```
+
 ## Misc
 
 ### ModuleNotFoundError: No module named 'pandas_profiling'
@@ -40,5 +50,5 @@ For Win10, install Graphviz (link) and then use following command to add the pat
 
 ```python
 import os
-os.environ["PATH"] += os.pathsep + 'C:\Apps\Graphviz\bin\'
+os.environ['PATH'] = os.environ['PATH'] + r";C:\Apps\Graphviz\bin"
 ```

@@ -5,7 +5,12 @@
 # ## Goal of Analysis: Use machine learning algorithms to get best accuracy of predictions for who survived the sinking of the Titanic given the attributes in the dataset. 
 
 # %%
-#Imports 
+import os
+os.environ['PATH'] = os.environ['PATH'] + r";C:\Apps\Graphviz\bin"
+
+# %%
+#Imports
+import sys
 import pandas as pd
 import numpy as np
 import pandas_profiling
