@@ -2,7 +2,7 @@
 
 My Data Science
 
-## Python + Conda + Jypyter Notebook
+## Python + Jypyter Notebook + Conda
 
 - Anaconda
 
@@ -14,7 +14,21 @@ cd <MyFolder>
 jupyter-notebook
 ```
 
+![1672159330624](image/README/1672159330624.png)
+
+## Python + Jypyter Notebook + VSCode
+
+It has to connect Conda kernel.
+
+Tried 3.7.5 and 3.11 but none of them work.
+
+![1672159238991](image/README/1672159238991.png)
+
+Looks like the new VSCode extension changed the UI?
+
 ## venv
+
+venv doesn't work for this case.
 
 ```dos
 python -m venv venv

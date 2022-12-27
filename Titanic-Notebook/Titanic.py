@@ -9,6 +9,10 @@ import os
 os.environ['PATH'] = os.environ['PATH'] + r";C:\Apps\Graphviz\bin"
 
 # %%
+import sys
+!{sys.executable} -m pip install pandas-profiling pydotplus keras tensorflow graphviz sklearn
+
+# %%
 #Imports
 import sys
 import pandas as pd
@@ -336,3 +340,5 @@ print("Neural Network: ")
 print('All attributes: {0:.2f}'.format(nn_accuracy))
 
 
+
+# %%
