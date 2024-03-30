@@ -2,6 +2,13 @@
 
 My Data Science
 
+- [Python + Jypyter Notebook + Conda](#python--jypyter-notebook--conda)
+- [Python + Jypyter Notebook + VSCode](#python--jypyter-notebook--vscode)
+- [venv](#venv)
+- [Misc](#misc)
+  - [ModuleNotFoundError: No module named 'pandas\_profiling'](#modulenotfounderror-no-module-named-pandas_profiling)
+  - [InvocationException: GraphViz's executables not found](#invocationexception-graphvizs-executables-not-found)
+
 ## Python + Jypyter Notebook + Conda
 
 - Anaconda
@@ -18,13 +25,13 @@ jupyter-notebook
 
 ## Python + Jypyter Notebook + VSCode
 
-Looks like it has to connect the Conda kernel.
+It has to connect the Conda kernel.
 
 Tried 3.7.5 and 3.11 but none of them work.
 
 ![1672159238991](image/README/1672159238991.png)
 
-Looks like the new VSCode extension changed the UI?
+<!-- Looks like the new VSCode extension changed the UI? -->
 
 ## venv
 
